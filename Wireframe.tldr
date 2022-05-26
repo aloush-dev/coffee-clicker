@@ -1,0 +1,557 @@
+{
+  "document": {
+    "id": "doc",
+    "name": "New Document",
+    "version": 15.3,
+    "pages": {
+      "page": {
+        "id": "page",
+        "name": "Page 1",
+        "childIndex": 1,
+        "shapes": {
+          "f7d43ae1-eb5f-4ce5-35dd-22de945ef02d": {
+            "id": "f7d43ae1-eb5f-4ce5-35dd-22de945ef02d",
+            "type": "rectangle",
+            "name": "Rectangle",
+            "parentId": "page",
+            "childIndex": 1,
+            "point": [
+              580,
+              124
+            ],
+            "size": [
+              584,
+              938
+            ],
+            "rotation": 0,
+            "style": {
+              "color": "black",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1
+            },
+            "label": "",
+            "labelPoint": [
+              0.5,
+              0.5
+            ]
+          },
+          "75e8dd8b-9b9e-401c-2e8b-278b89a19102": {
+            "id": "75e8dd8b-9b9e-401c-2e8b-278b89a19102",
+            "type": "rectangle",
+            "name": "Rectangle",
+            "parentId": "page",
+            "childIndex": 2,
+            "point": [
+              583,
+              127
+            ],
+            "size": [
+              581,
+              83
+            ],
+            "rotation": 0,
+            "style": {
+              "color": "black",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1
+            },
+            "label": "Shop Name",
+            "labelPoint": [
+              0.5,
+              0.5
+            ]
+          },
+          "93c4980e-4885-4907-1176-d04c3c24a347": {
+            "id": "93c4980e-4885-4907-1176-d04c3c24a347",
+            "type": "rectangle",
+            "name": "Rectangle",
+            "parentId": "page",
+            "childIndex": 4,
+            "point": [
+              602,
+              681
+            ],
+            "size": [
+              548,
+              355
+            ],
+            "rotation": 0,
+            "style": {
+              "color": "black",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1
+            },
+            "label": "",
+            "labelPoint": [
+              0.5,
+              0.5
+            ]
+          },
+          "f9b5248b-61f8-427c-0c29-4abf6a759798": {
+            "id": "f9b5248b-61f8-427c-0c29-4abf6a759798",
+            "type": "rectangle",
+            "name": "Rectangle",
+            "parentId": "page",
+            "childIndex": 5,
+            "point": [
+              786,
+              407
+            ],
+            "size": [
+              185,
+              152
+            ],
+            "rotation": 0,
+            "style": {
+              "color": "black",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1
+            },
+            "label": "Cup",
+            "labelPoint": [
+              0.5,
+              0.5
+            ]
+          },
+          "2fcfe0b7-80e5-4680-0306-75dac212dda6": {
+            "id": "2fcfe0b7-80e5-4680-0306-75dac212dda6",
+            "type": "text",
+            "name": "Text",
+            "parentId": "page",
+            "childIndex": 7,
+            "point": [
+              1047.5,
+              371
+            ],
+            "rotation": 0,
+            "text": " ",
+            "style": {
+              "color": "black",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          },
+          "de93681a-26c1-46cd-21eb-75eef166d722": {
+            "id": "de93681a-26c1-46cd-21eb-75eef166d722",
+            "type": "rectangle",
+            "name": "Rectangle",
+            "parentId": "page",
+            "childIndex": 8,
+            "point": [
+              610,
+              222
+            ],
+            "size": [
+              204,
+              52
+            ],
+            "rotation": 0,
+            "style": {
+              "color": "black",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1
+            },
+            "label": "Money",
+            "labelPoint": [
+              0.5,
+              0.5
+            ]
+          },
+          "bdbe6b96-65ac-4cd8-3be0-56b9cee61b54": {
+            "id": "bdbe6b96-65ac-4cd8-3be0-56b9cee61b54",
+            "type": "rectangle",
+            "name": "Rectangle",
+            "parentId": "page",
+            "childIndex": 9,
+            "point": [
+              962,
+              224
+            ],
+            "size": [
+              165,
+              49
+            ],
+            "rotation": 0,
+            "style": {
+              "color": "black",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1
+            },
+            "label": "Beans",
+            "labelPoint": [
+              0.5,
+              0.5
+            ]
+          },
+          "70877ec2-ecc3-4cec-0b71-2d5abb87d680": {
+            "id": "70877ec2-ecc3-4cec-0b71-2d5abb87d680",
+            "type": "rectangle",
+            "name": "Rectangle",
+            "parentId": "page",
+            "childIndex": 10,
+            "point": [
+              597,
+              141
+            ],
+            "size": [
+              131,
+              28
+            ],
+            "rotation": 0,
+            "style": {
+              "color": "black",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1
+            },
+            "label": "App Name",
+            "labelPoint": [
+              0.5,
+              0.5
+            ]
+          },
+          "c1c27a70-0bdc-475a-246b-8e45a59400e9": {
+            "id": "c1c27a70-0bdc-475a-246b-8e45a59400e9",
+            "type": "arrow",
+            "name": "Arrow",
+            "parentId": "page",
+            "childIndex": 11,
+            "point": [
+              1150,
+              855
+            ],
+            "rotation": 0,
+            "bend": 0,
+            "handles": {
+              "start": {
+                "id": "start",
+                "index": 0,
+                "point": [
+                  0,
+                  1.1
+                ],
+                "canBind": true,
+                "bindingId": "287cccde-ca80-4dfb-007c-0ea851f6bc1f"
+              },
+              "end": {
+                "id": "end",
+                "index": 1,
+                "point": [
+                  125,
+                  0
+                ],
+                "canBind": true
+              },
+              "bend": {
+                "id": "bend",
+                "index": 2,
+                "point": [
+                  62.5,
+                  0.55
+                ]
+              }
+            },
+            "decorations": {
+              "end": "arrow"
+            },
+            "style": {
+              "color": "black",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1
+            },
+            "label": "",
+            "labelPoint": [
+              0.5,
+              0.5
+            ]
+          },
+          "b5217215-48ff-45d1-0f72-2354d371da18": {
+            "id": "b5217215-48ff-45d1-0f72-2354d371da18",
+            "type": "text",
+            "name": "Text",
+            "parentId": "page",
+            "childIndex": 12,
+            "point": [
+              1284.5,
+              836
+            ],
+            "rotation": 0,
+            "text": "Upgrades",
+            "style": {
+              "color": "black",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          },
+          "32159d01-db64-4625-2a97-e61f67445231": {
+            "id": "32159d01-db64-4625-2a97-e61f67445231",
+            "type": "rectangle",
+            "name": "Rectangle",
+            "parentId": "page",
+            "childIndex": 13,
+            "point": [
+              973,
+              694
+            ],
+            "size": [
+              169,
+              336
+            ],
+            "rotation": 0,
+            "style": {
+              "color": "black",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1
+            },
+            "label": "",
+            "labelPoint": [
+              0.5,
+              0.5
+            ]
+          },
+          "0fe131f8-2282-4bec-2296-67215414bb9d": {
+            "id": "0fe131f8-2282-4bec-2296-67215414bb9d",
+            "type": "rectangle",
+            "name": "Rectangle",
+            "parentId": "page",
+            "childIndex": 14,
+            "point": [
+              620,
+              700
+            ],
+            "size": [
+              339,
+              325
+            ],
+            "rotation": 0,
+            "style": {
+              "color": "black",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1
+            },
+            "label": "",
+            "labelPoint": [
+              0.5,
+              0.5
+            ]
+          },
+          "748c2b59-eb4e-43cf-113a-1b48859e8071": {
+            "id": "748c2b59-eb4e-43cf-113a-1b48859e8071",
+            "type": "text",
+            "name": "Text",
+            "parentId": "page",
+            "childIndex": 15,
+            "point": [
+              677.5,
+              705
+            ],
+            "rotation": 0,
+            "text": "Performance Upgrades",
+            "style": {
+              "color": "black",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          },
+          "4f8c3b1e-be34-4310-0d92-e83408f868aa": {
+            "id": "4f8c3b1e-be34-4310-0d92-e83408f868aa",
+            "type": "text",
+            "name": "Text",
+            "parentId": "page",
+            "childIndex": 16,
+            "point": [
+              1010.5,
+              701
+            ],
+            "rotation": 0,
+            "text": "Cosmetic \nUpgrades",
+            "style": {
+              "color": "black",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1,
+              "font": "script",
+              "textAlign": "middle"
+            }
+          },
+          "d8634b6c-ef96-4639-1a98-b600d13b2781": {
+            "id": "d8634b6c-ef96-4639-1a98-b600d13b2781",
+            "type": "rectangle",
+            "name": "Rectangle",
+            "parentId": "page",
+            "childIndex": 17,
+            "point": [
+              641,
+              768
+            ],
+            "size": [
+              200,
+              91
+            ],
+            "rotation": 0,
+            "style": {
+              "color": "black",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1
+            },
+            "label": "Buy Beans x10",
+            "labelPoint": [
+              0.5,
+              0.5
+            ]
+          },
+          "785d208e-f3b0-45f2-0b5a-c3fd94e1499a": {
+            "id": "785d208e-f3b0-45f2-0b5a-c3fd94e1499a",
+            "type": "rectangle",
+            "name": "Rectangle",
+            "parentId": "page",
+            "childIndex": 18,
+            "point": [
+              640,
+              880
+            ],
+            "size": [
+              200,
+              91
+            ],
+            "rotation": 0,
+            "style": {
+              "color": "black",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1
+            },
+            "label": "Buy Beans x100",
+            "labelPoint": [
+              0.5,
+              0.5
+            ]
+          },
+          "db95ba50-25d8-4b9c-2fe2-8a212e8d09aa": {
+            "id": "db95ba50-25d8-4b9c-2fe2-8a212e8d09aa",
+            "type": "rectangle",
+            "name": "Rectangle",
+            "parentId": "page",
+            "childIndex": 19,
+            "point": [
+              997,
+              801
+            ],
+            "size": [
+              122,
+              76
+            ],
+            "rotation": 0,
+            "style": {
+              "color": "black",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1
+            },
+            "label": "Blue Cup",
+            "labelPoint": [
+              0.5,
+              0.5
+            ]
+          },
+          "40b26688-b9d4-472b-2941-faf4c5c03505": {
+            "id": "40b26688-b9d4-472b-2941-faf4c5c03505",
+            "type": "rectangle",
+            "name": "Rectangle",
+            "parentId": "page",
+            "childIndex": 20,
+            "point": [
+              1003,
+              912
+            ],
+            "size": [
+              113,
+              88
+            ],
+            "rotation": 0,
+            "style": {
+              "color": "black",
+              "size": "small",
+              "isFilled": false,
+              "dash": "draw",
+              "scale": 1
+            },
+            "label": "Red Cup",
+            "labelPoint": [
+              0.5,
+              0.5
+            ]
+          }
+        },
+        "bindings": {
+          "287cccde-ca80-4dfb-007c-0ea851f6bc1f": {
+            "id": "287cccde-ca80-4dfb-007c-0ea851f6bc1f",
+            "type": "arrow",
+            "fromId": "c1c27a70-0bdc-475a-246b-8e45a59400e9",
+            "toId": "93c4980e-4885-4907-1176-d04c3c24a347",
+            "handleId": "start",
+            "point": [
+              0.5,
+              0.5
+            ],
+            "distance": 16
+          }
+        }
+      }
+    },
+    "pageStates": {
+      "page": {
+        "id": "page",
+        "selectedIds": [
+          "f7d43ae1-eb5f-4ce5-35dd-22de945ef02d"
+        ],
+        "camera": {
+          "point": [
+            0,
+            0
+          ],
+          "zoom": 1
+        },
+        "editingId": null
+      }
+    },
+    "assets": {}
+  },
+  "assets": {}
+}
