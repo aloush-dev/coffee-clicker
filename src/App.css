@@ -1,15 +1,64 @@
 * {
   padding: 0;
   margin: 0;
+  
 }
-
+/* #4b1818 #d8af70 #871212 #e57920 #14bda7*/
 .App {
   text-align: center;
+  background-color: #ddcfbb;
 }
 
 header {
-  background-color: black;
-  color: white;
+  background-color: white;
+  color: black;
   padding: 15px;
 
+}
+
+#stats-banner {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem;
+  font-size: 1.5rem;
+  background-color: #d8af70;
+  border-top: #871212 solid 2px;
+  border-bottom: #871212 solid 2px;
+}
+
+#coin {
+ min-height: 20px;
+}
+
+#cup {
+  margin: 2.5rem;
+  max-height: 200px;
+  cursor: pointer;
+}
+
+#upgrade-panel {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid #4b1818;
+  border-radius: 15px;
+  margin: 1rem;
+  padding: 2rem;
+  justify-content: center;
+  align-items: center;
+  background-color: #dabe95;
+  color: #4b1818;
+}
+
+#upgrade-panel button {
+  border-radius: 15px;
+  padding: 8px;
+  max-width: 120px;
+  background-color: #e57920;
+  color: #4b1818;
+  border: #dabe95 solid;
+}
+
+#upgrade-panel button:hover {
+  border-color: #4b1818;
+  cursor: pointer;
 }
