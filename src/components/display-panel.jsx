@@ -10,11 +10,15 @@ const Display = () => {
     coffeeShop: 0,
     factory: 0,
   });
+
+
   const [currentSkin, setSkin] = useState({ skin: "White-coffee-cup.png" });
 
-  const [currentName, setName] = useState("Crappy Coffee Shop");
+  const [currentName, setName] = useState("Coffee Shop");
 
-  const makeCoffee = (event) => {
+  const [prodRunning, setProd] = useState(false)
+
+  const makeCoffee = () => {
     setCoffee((currentResources) => {
       const newResources = { ...currentResources };
       if (newResources.beans < 1) {
@@ -42,7 +46,19 @@ const Display = () => {
     });
   };
 
-  setTimeout(passiveCofProd, 1000);
+  const Prodcoffee = () => {
+    setProd((prodRunning) => {
+      const newRunning =  [prodRunning];
+      if(!newRunning[0]){
+        newRunning[0]= true;
+        setInterval(passiveCofProd, 10000);
+        return newRunning[0];
+      }
+      return newRunning[0];
+    });
+  };
+
+  setInterval(Prodcoffee,1000)
 
   return (
     <main>
