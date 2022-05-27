@@ -16,10 +16,11 @@ const Upgrades = (props) => {
     return (
         <section id="upgrade-panel">
             <h3>Bean market</h3>
-            <button onClick={() => buyBeans(1)}>Buy 1 bean</button>
+            <button onClick={() => buyBeans(1)}><img src="bean.png" id="bean" alt="Coffee Bean "></img>1</button>
             <button onClick={() => buyBeans(10)}>Buy 10 beans</button>
             <button onClick={() => buyBeans(100)}>Buy 100 beans</button>
         </section>
+        
     )
 }
 

@@ -4,6 +4,7 @@ import Upgrades from "./upgrades"
 const Display = () => {
     const [resources, setCoffee] = useState({beans: 10, money: 0})
 
+
     const makeCoffee = (event) => {
       setCoffee((currentResources) => {
         const newResources = {...currentResources};
@@ -21,7 +22,7 @@ const Display = () => {
     <main>
       <section id="stats-banner">
         <h3><img src="coin.png" id="coin" alt="Gold coin"></img> {resources.money}</h3>
-        <h3>Beans: {resources.beans}</h3>
+        <h3><img src="bean.png" id="bean" alt="Coffee Bean "></img> {resources.beans}</h3>
       </section>
       <img src="cup.png" id="cup" onClick={()=> makeCoffee()}></img>
       <Upgrades resources={resources} setCoffee={setCoffee}/>
